@@ -2,7 +2,7 @@
 
 **Harjutuste link:** https://www.indeed.com/career-advice/career-development/beginner-projects-for-python 
  
-1. Calculator
+1. Calculator ✅
 2. Countdown timer
 3. Alarm clock
 4. Website blocker
