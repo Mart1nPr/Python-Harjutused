@@ -1,4 +1,4 @@
-# 20 Lihtsat püütoni 
+## 20 Lihtsat püütoni harjutust 
 
 **Harjutuste link:** https://www.indeed.com/career-advice/career-development/beginner-projects-for-python 
  
