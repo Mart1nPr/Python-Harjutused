@@ -4,10 +4,10 @@
  
 1. Calculator ✅
 2. Countdown timer ✅
-3. Alarm clock
+3. Alarm clock ⏳
 4. Website blocker
 5. Rock, paper, scissors ✅
-6. Tic-tac-toe
+6. Tic-tac-toe ⏳
 7. Text adventure game
 8. Interactive quiz
 9. Password generator
