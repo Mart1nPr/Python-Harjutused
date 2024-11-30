@@ -20,6 +20,6 @@ if minuteSelection in (0,59):
 else:
     print("Over 59!")
 
-meridiemSelection = input("Enter meridian (AM/PM): ")
+meridiemSelection = input("Enter meridian (AM/PM): ").upper()
 
 
