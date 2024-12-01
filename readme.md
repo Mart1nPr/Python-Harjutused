@@ -10,7 +10,7 @@
 6. Tic-tac-toe ✅
 7. Text adventure game
 8. Interactive quiz
-9. Password generator
+9. Password generator ⏳
 10. Currency converter
 11. Temperature converter
 12. Music player
