@@ -8,7 +8,7 @@
 4. Website blocker
 5. Rock, paper, scissors ✅
 6. Tic-tac-toe ✅
-7. Text adventure game
+7. Text adventure game ⏳
 8. Interactive quiz
 9. Password generator ✅
 10. Currency converter
