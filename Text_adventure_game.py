@@ -5,7 +5,7 @@
 import time
 t = 1  # 1-second delay
 
-inventory = []
+inventory = ["Hotbar:",[" ", " ", " ", " "],"Abilities:",[" ", " ", " "]]
 currency = 0
 username = ""
 health = 100
@@ -48,5 +48,5 @@ def the_beginning():
 
 def first_quest():
     pass
-    
-game_start() # Game start
+
+game_start() # Starts game
