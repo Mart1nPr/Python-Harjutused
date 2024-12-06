@@ -5,10 +5,19 @@
 import time
 t = 1  # 1-second delay
 
-inventory = ["Hotbar:",[" ", " ", " ", " "],"Abilities:",[" ", " ", " "]]
+inventory = ["Inventory:",[" ", " ", " ", " "]]
 currency = 0
 username = ""
 health = 100
+
+# Enemy health
+skeletonHealth = 100
+CorruptedWolvesHealth = 150
+ErrorSpritesHealth = 200
+GlitchGolemsHealth = 250
+ShadowKnightsHealth = 300
+FlameWisps = 350
+
 
 def game_start():
     global username
@@ -23,7 +32,7 @@ def game_start():
             print()
             print("Username must be 10 characters or fewer. Try again!")
             print()
-    the_beginning() # First
+    the_beginning() # First (the_beginning)
 
 def the_beginning():
     time.sleep(t)
@@ -45,8 +54,63 @@ def the_beginning():
     print()
     print("Your journey begins now...")
     print()
+    tutorial() # Second (Tutorial)
 
-def first_quest():
-    pass
+def tutorial():
+    print()
+    print("----------------------------------------")
+    time.sleep(t)
+    print("OVERVIEW/TUTORIAL")
+    time.sleep(t)
+    print("1. OBJECTIVE:")
+    print("   - Your mission is to defeat opponents, solve puzzles, and conquer errors that plague the land.")
+    print("   - Your choices matter! Pay attention to the story and options presented.")
+    time.sleep(t)
+    print("2. INTERACTIONS:")
+    print("   - Use simple text-based commands to explore and interact.")
+    print("   - Type commands like 'look', 'attack', 'inventory', or other prompts as needed.")
+    time.sleep(t)
+    print("3. INVENTORY:")
+    print("   - Your inventory holds important items you acquire on your journey.")
+    print("   - Check your inventory by typing 'inventory or i'. You can carry up to 4 items.")
+    time.sleep(t)
+    print("4. HEALTH:")
+    print("   - Your health starts at 100. Make smart decisions to avoid losing it.")
+    print("   - Keep an eye on your health as it determines how long you can survive.")
+    time.sleep(t)
+    print("5. CURRENCY:")
+    print("   - Earn currency by completing tasks and defeating enemies.")
+    print("   - Use currency to buy items or upgrade your abilities (later in the game).")
+    time.sleep(t)
+    print("6. SAVE/EXIT:")
+    print("   - This version of the game doesn’t save progress automatically. Play smart!")
+    print("   - You can exit the game anytime by typing 'exit' (but progress will be lost).")
+    print("----------------------------------------")
+    time.sleep(t*4)
+    print()
+    input("Press any key to continue: ")
+    print()
+    first_encounter()
+
+def first_encounter():
+    time.sleep(t)
+    print("You start walking from the wise mans hut.")
+    time.sleep(t)
+    print("You end-up in a forest.")
+    time.sleep(t)
+    print("All of a sudden you hear git branch cracking and you see failed merge...")
+    time.sleep(t)
+    while(True):
+        print()
+        print("----------------------------------------")
+        print(f"Player: {username}                                              Enemy: Skeleton")
+        print(f"Health: {health}                                                Health: {skeletonHealth}")
+        print()
+        print()
+        print()
+        print("Your choises:")
+        print("1. Attack    2. Runaway")
+        print("----------------------------------------")
+        choise = input(">")
 
 game_start() # Starts game
