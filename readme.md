@@ -12,7 +12,7 @@
 8. Interactive quiz
 9. Password generator ✅
 10. Currency converter
-11. Temperature converter
+11. Temperature converter ✅
 12. Music player
 13. Plagiarism checker
 14. Web crawler
