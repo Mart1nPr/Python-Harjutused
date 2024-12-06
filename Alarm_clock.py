@@ -1,25 +1,28 @@
 # Alarm clock
 # Started: 11/27/2024
-# Finished: 
+# Finished: 12/07/2024
 
 from datetime import datetime
+import time
+import winsound
+   
+def timeSet(alarmSet):
+    while True:
+        now = datetime.now().strftime("%H:%M")
+        nowStats = datetime.now().strftime("%H:%M:%S")
+        if alarmSet == now:
+            print()
+            print("Alarm went off!")
+            for i in range(10):
+                winsound.Beep(500, 100) # Works only on Windows :(
+            break
+        else:
+            print(f"Alarm was set for: {alarmSet} | Current time: {nowStats}")
+        
+        time.sleep(1) # Checks every 1 second
 
-current_time = datetime.now()
+alarmTime = input("Enter time (00:00 - 23:59) (HH:MM): ")
+alarmSet = datetime.strptime(alarmTime, "%H:%M").strftime("%H:%M")
 
-print(current_time.time())
-
-hourSelection = int(input("Enter hour/hours (0-12): "))
-if hourSelection in (0,12):
-    pass
-else:
-    print("Over 12!")
-
-minuteSelection = int(input("Enter minute/minutes (0-59): "))
-if minuteSelection in (0,59):
-    pass
-else:
-    print("Over 59!")
-
-meridiemSelection = input("Enter meridian (AM/PM): ").upper()
-
-
+# Start
+timeSet(alarmSet)
