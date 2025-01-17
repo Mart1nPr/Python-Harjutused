@@ -1,7 +1,9 @@
 ## 20 Lihtsat püütoni harjutust 
 
 **Harjutuste link:** [Click me](https://www.indeed.com/career-advice/career-development/beginner-projects-for-python) 
- 
+
+Lisan omi harjutusi ka siia.
+
 1. Calculator ✅
 2. Countdown timer ✅
 3. Alarm clock ✅
@@ -22,3 +24,4 @@
 18. Address book
 19. Notes app
 20. Notification app
+21. Password manager
